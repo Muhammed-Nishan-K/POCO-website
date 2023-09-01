@@ -1,0 +1,278 @@
+/*-----------------------------nav bar--------------------*/
+.navbar{
+    background-color:black;
+    width: 100%;
+    height: 60px;
+    border-top: 2px solid #ffd400;
+    display: flex;
+       
+}
+.Poco_logo{
+    width: 106px;
+    height: 60px;
+    padding-left: 155px;
+}
+.navbar ul li{
+    display: inline;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+
+}
+.navbar nav{
+    padding-top: 5px;
+    font: 14px/1.5 Roboto,Helvetica Neue,Helvetica,Arial,Microsoft Yahei,Hiragino Sans GB,Heiti SC,WenQuanYi Micro Hei,sans-serif;
+    font-size: 13px;
+    display: flex;
+}
+/*-----------------------------main block--------------------*/
+.main_block{
+        background-image: url(./images/main_screen.jpg);
+        height: 600px;
+        width: 100%;
+        background-size: cover;
+        position: relative;
+        background-repeat: no-repeat;
+        cursor: pointer;
+        animation: slide 20s infinite;
+
+}
+@keyframes slide{
+    0%{
+        background-image: url(./images/main_screen.jpg);
+    }
+    13%{
+        background-image: url(./images/main_screen.jpg);
+    }
+    16%{
+        background-image: url(./images/POCO-X5-5G-PC-Banner.jpg);
+    }
+    29%{
+        background-image: url(./images/POCO-X5-5G-PC-Banner.jpg);
+    }
+    32%{
+        background-image: url(./images/781225cc840ff62a6a2a7eb980581694.jpg);
+    }
+    45%{
+        background-image: url(./images/781225cc840ff62a6a2a7eb980581694.jpg);
+    }
+    48%{
+        background-image: url(./images/8f58817e5b398448538afd2c09e5035e.jpg);
+    }
+    61%{
+        background-image: url(./images/8f58817e5b398448538afd2c09e5035e.jpg);
+    }
+    64%{
+        background-image: url(./images/a12e5c333ec2bdb81d75c7ddd2c6b5c2.png);
+    }
+    77%{
+        background-image: url(./images/a12e5c333ec2bdb81d75c7ddd2c6b5c2.png);
+    }
+    80%{
+        background-image: url(./images/781225cc840ff62a6a2a7eb980581694.jpg);
+    }
+    97%{
+        background-image: url(./images/781225cc840ff62a6a2a7eb980581694.jpg);
+    }
+    100%{
+        background-image: url(./images/main_screen.jpg);
+    }
+
+}
+.main_block1{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    padding-left: 454px;
+    font:  14px/1.5 Roboto,Helvetica Neue,Helvetica,Arial,Microsoft Yahei,Hiragino Sans GB,Heiti SC,WenQuanYi Micro Hei,sans-serif;
+    font-weight: 600;
+}
+.mainblock1-1{
+    height: 100px;
+    width: 130px;
+    
+}
+.mainblock1-2{
+    height: 100px;
+    width: 130px;
+    
+}
+.mainblock1-3{
+    height: 100px;
+    width: 130px;
+    
+}
+.mainblock1-4{
+    height: 100px;
+    width: 130px;
+    
+}
+.mainblock1-5{
+    height: 100px;
+    width: 130px;
+    
+}
+.nav1{
+    color: white;
+    padding-top: 20px;
+}
+.side-L{
+    height: 300px;
+    width: 106px;
+    position: relative;
+    top: 125px;
+}
+.side-R{
+    height: 300px;
+    width: 106px;
+    position: absolute;
+    top: 225px;
+    right: 0%;
+}
+.button-radio{
+    position: absolute;
+    right: 48%;
+    top: 566px;
+}
+.nav1:hover{
+    color: #ffd400;
+}
+/*-----------------------------cover--------------------*/
+.cover1{
+    height: 260px;
+    background-color: rgb(0, 0, 0);
+
+}
+.cover2{
+    height: 450px;
+    background-color: rgb(0, 0, 0);
+
+}
+.cover3{
+    height: 450px;
+    display: flex;
+    position: absolute;
+    top: 1037px;
+    left: 121px;
+
+}
+.cover3-1
+{
+    height: 325px; width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cover3-1-1{
+    height: 100px;
+    width: 100px;
+    background-color: rgba(255, 255, 255, 0.356);
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.cover3-1-1:hover{
+    background-color: rgba(255, 255, 255, 0.551);
+}
+.cover3-1-2:hover{
+    background-color: rgba(255, 255, 255, 0.551);
+}
+.cover3-1-3:hover{
+    background-color: rgba(255, 255, 255, 0.551);
+}
+.cover3-1-2{
+    height: 100px;
+    width: 100px;
+    background-color: rgba(255, 255, 255, 0.356);
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.cover3-1-3{
+    height: 100px;
+    width: 100px;
+    background-color: rgba(255, 255, 255, 0.356);
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.cover3-2
+{
+    height: 325px; width: 400px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cover3-3
+{
+    height: 325px; width: 400px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*-----------------------------footer--------------------*/
+
+.foot1{
+    height: 100px;
+    background-color: #161718;
+    display: flex;
+}
+.foot2{
+    height: 320px;
+    background: #000;
+}
+.footermain{
+    padding-left: 8%;
+    height: 200px;
+    padding-top: 3%;
+}
+.foot-list1
+{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+}
+.foot-list2
+{
+    height: 30px;
+    font-weight: lighter;
+    color: rgb(129, 122, 122);
+    font: 14px/1.5 Roboto,Helvetica Neue,Helvetica,Arial,Microsoft Yahei,Hiragino Sans GB,Heiti SC,WenQuanYi Micro Hei,sans-serif;
+    cursor: pointer;
+}
+.icons{
+    width: 30px;
+    height: 30px;
+}
+.iconfont-facebook-18
+{
+    font-family: iconfont!important;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    width: 16px;
+    height: 16px;
+}
+/*-----------------------------id--------------------*/
+#slash{
+    color: rgb(164, 159, 152);
+}
+#left_sign_in{
+    padding-left: 667px;
+}
+
+
